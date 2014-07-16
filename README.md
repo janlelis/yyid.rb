@@ -1,6 +1,6 @@
 # YYID [![[travis]](https://travis-ci.org/janlelis/yyid.png)](https://travis-ci.org/janlelis/yyid)
 
-Generates tokens that look like type 4 UUIDs, but are more random.
+Generates tokens that look like [type 4 UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_.28random.29), but are more random.
 
 ## Usage
 
