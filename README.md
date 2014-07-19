@@ -9,3 +9,6 @@ require 'yyid'
 YYID.new #=> "9a4161c6-7742-b6ea-301a-d1e5e1df151d"
 ```
 
+## Also Available
+
+- YYID for [JavaScript](https://github.com/janlelis/yyid.js)
