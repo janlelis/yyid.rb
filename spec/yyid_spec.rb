@@ -4,7 +4,7 @@ require 'yyid'
 
 
 describe "YYID.new" do
-  it 'creates a string' do
+  it 'returns a string' do
     expect(YYID.new).to be_a String
   end
 

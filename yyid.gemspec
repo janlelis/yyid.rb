@@ -5,12 +5,12 @@ require File.expand_path('../lib/yyid', __FILE__)
 Gem::Specification.new do |gem|
   gem.name          = "yyid"
   gem.version       = YYID::VERSION
-  gem.summary       = "Generates YYIDs."
-  gem.description   = "Generates tokens that look like type 4 UUID, but are more random."
+  gem.summary       = "Generates random tokens that look like type 4 UUIDs."
+  gem.description   = "Generates random tokens that look like type 4 UUIDs: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
   gem.license       = "MIT"
   gem.authors       = ["Jan Lelis"]
   gem.email         = "mail@janlelis.de"
-  gem.homepage      = "https://github.com/janlelis/yyid"
+  gem.homepage      = "https://github.com/janlelis/yyid.rb"
 
   gem.files         = Dir['{**/}{.*,*}'].select { |path| File.file?(path) }
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
