@@ -1,4 +1,4 @@
-# YYID for Ruby [![[travis]](https://travis-ci.org/janlelis/yyid.rb.png)](https://travis-ci.org/janlelis/yyid.rb)
+# YYID for Ruby [![[version]](https://badge.fury.io/rb/yyid.svg)](https://badge.fury.io/rb/yyid)  [![[ci]](https://github.com/janlelis/yyid.rb/workflows/Test/badge.svg)](https://github.com/janlelis/yyid.rb/actions?query=workflow%3ATest)
 
 - Generates a random string in [UUID#4](https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_.28random.29) format: `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 - In contrast to [RFC 4122](https://tools.ietf.org/rfc/rfc4122.txt), it uses all digits (128bit)
