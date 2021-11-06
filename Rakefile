@@ -1,5 +1,3 @@
-require 'rspec/core/rake_task'
-
 # # #
 # Get gemspec info
 
@@ -32,11 +30,9 @@ end
 # # #
 # Run specs
 
-RSpec::Core::RakeTask.new(:spec) do |t| 
-  t.rspec_opts = [ 
-    '--colour',
-    '--format documentation',
-  ]
+desc "Run specs"
+task :spec do
+  sh "rspec"
 end
 
 task :default => :spec
